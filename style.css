@@ -1,0 +1,156 @@
+* {
+    margin: 5;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgba(176, 196, 222, 0.15);
+}
+
+html {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin: 10px;
+}
+
+.profile {
+    border-radius: 150px;
+    width: 30;
+    box-shadow: 0px 3px 8px -3px gray;
+}
+
+blockquote {
+    display: block;
+    text-align: center;
+    background-color: rgba(176, 196, 222, 0.15);
+    border-radius: 16px;
+    margin: 30px auto;
+    width: 900px;
+    padding: 12px;
+}
+
+a {
+    margin: 10px;
+    padding: 3px 10px 3px 10px;
+    font-size: 25px;
+    color: #34268f;
+    font-family: cursive;
+}
+
+.center {
+    text-align: center
+}
+
+
+
+h2,
+h3 {
+    text-align: center;
+    color: #34268f;
+}
+
+dt,
+dd {
+    display: inline-block;
+    width: 180px;
+    margin: auto;
+    text-align: left;
+    padding: 3px;
+    border-left: 1px solid #34268f;
+}
+
+table {
+    border-collapse: collapse;
+    width: 900px;
+    margin: auto;
+}
+
+td,
+th {
+    border-bottom: 1.5px solid #34268f;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(176, 196, 222, 0.15);
+    width: 300px;
+}
+
+td {
+    width: 300px;
+}
+
+input[type],
+textarea {
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+    width: 400px;
+}
+
+input[type=submit] {
+    padding: 15px;
+    width: 61px;
+}
+
+.name,
+.date,
+.place {
+    text-align: center;
+}
+
+.pharagraph1 {
+    border: 1.5px solid #34268f;
+    padding: 15px;
+    border-radius: 2%;
+    width: 900px;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.page:nth-of-type(1) {
+    background-color: #9ab9ff;
+    color: #282828;
+}
+
+.page:nth-of-type(2) {
+    background-color: #a4c3ff;
+}
+
+.page:nth-of-type(3) {
+    background-color: #aecdff;
+}
+
+.page:nth-of-type(4) {
+    background-color: #b8d7ff;
+}
+
+.page:nth-of-type(5) {
+    background-color: #cce1ff;
+}
+
+.page:nth-of-type(6) {
+    background-color: #e0ebff;
+}
+
+.page:nth-of-type(7) {
+    background-color: #ebf5ff;
+}
