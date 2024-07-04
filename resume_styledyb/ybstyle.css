@@ -10,6 +10,7 @@ body {
 
 html {
     padding: 10px;
+    scroll-snap-type: y mandatory;
 }
 
 h1 {
@@ -124,6 +125,7 @@ input[type=submit] {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    scroll-snap-align: start;
 }
 
 .page:nth-of-type(1) {
